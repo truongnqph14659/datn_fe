@@ -1,0 +1,12 @@
+.search_input {
+  .ant-input-group-addon {
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .anticon {
+    display: inline-flex;
+  }
+}

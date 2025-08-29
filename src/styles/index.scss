@@ -1,0 +1,20 @@
+@use "./reset" as *;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#F6F6F8] text-grayPrimary antialiased overflow-x-hidden;
+  }
+}
+
+.permission-settings {
+  .ant-table-thead > tr > th:empty {
+    display: none;
+  }
+}
+
+
+/* Có thể đặt ở global styles hoặc module */
